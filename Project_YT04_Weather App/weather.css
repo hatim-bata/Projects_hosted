@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background-color: #222;
+}
+
+.welcome {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 20px;
+    font-size: large;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.card {
+    width: 85%;
+    max-width: 470px;
+    background: linear-gradient(375deg, #00feba, #5b5485);
+    color: #fff;
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background-color: #ebffce;
+    color: #555;
+    padding: 10px 25px;
+    height: 60%;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 65px;
+    font-size: 18px;
+}
+
+.search button {
+    border-radius: 50%;
+    position: relative;
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.search button img {
+    width: 20px;
+    padding-top: 4px;
+    align-content: center;
+    /* position: absolute; */
+}
+
+.weather-icon {
+    width: 170px;
+    margin: 30px;
+}
+
+.temp {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.City {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0px 20px; */
+    margin-top: 25px;
+}
+
+.col {
+    align-items: center;
+    text-align: left;
+    display: flex;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 8px;
+    /* margin-top: 5px; */
+    height: 35px;
+}
+
+.humidity,
+.wind {
+    font-size: 30px;
+    margin-top: -6px;
+    /* margin-bottom: 3px; */
+}
+
+p {
+    margin-top: -2px;
+}
+
+.copyright {
+    background-color: rgb(26, 41, 59);
+    color: white;
+    text-align: center;
+    /* width: 100%; */
+}
+
+.error {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: italic;
+    display: none;
+}
+
+.weather {
+    display: none;
+}
